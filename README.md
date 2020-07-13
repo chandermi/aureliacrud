@@ -9,11 +9,8 @@ Client app can be statarted with au run but I will recommened to run from visual
 
 The Clientapp build command is au build --env --prod (it requires aurelia-cli)
 
- 
-#Please change the connection string as per you folder structure in Data/Context/hahnDbConnext.cs
-#.mdf file is in Data/Context/hahnDb.mdf
 
-#Aurelia runs on 8080 port which sometime donot close by itself
+#Aurelia runs on 8080 port which sometime do not close by itself
 
 So we need to kill the port everytime we run the project
 
