@@ -1,0 +1,35 @@
+<template>
+  <div>
+    <a class="btn btn-success" route-href="route: applicant; params.bind: {id:''}">New Applicant</a>
+  </div>
+  <table class="table table-striped" aurelia-table="data.bind: applicants; display-data.bind: $displayData">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Family Name</th>
+        <th>Address</th>
+        <th>Country</th>
+        <th>Email Adress</th>
+        <th>Age</th>
+        <th>Hired</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr repeat.for="applicant of $displayData">
+        <td>${ applicant.name }</td>
+        <td>${ applicant.familyName }</td>
+        <td>${ applicant.address }</td>
+        <td>${ applicant.countryOfOrigin }</td>
+        <td>${ applicant.emailAdress }</td>
+        <td>${ applicant.age }</td>
+        <td><input type="checkbox" name="hired" checked.bind="applicant.hired" disabled value.bind="applicant.hired" /></td>
+        <td>
+          <a class="btn btn-success" disabled.bind="!canSave && !hasChanged" route-href="route: applicant; params.bind: {id:applicant.id}">Edit</a>
+          /
+          <a class="btn btn-danger" click.delegate="$parent.delete(applicant.id)">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</template>

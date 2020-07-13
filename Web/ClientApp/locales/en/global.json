@@ -1,0 +1,11 @@
+{
+  "name": "Name",
+  "familyName": "Family Name",
+  "country": "Country",
+  "emailaddress": "Email Adress",
+  "age": "Age",
+  "hired": "Hired",
+  "address": "Address",
+  "send": "Send",
+  "reset": "Reset"
+}

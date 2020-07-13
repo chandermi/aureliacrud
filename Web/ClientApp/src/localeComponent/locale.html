@@ -1,0 +1,9 @@
+<template>
+  <select click.trigger="setLocale()" value.bind="localeobj">
+    <option value="${locale.code}" repeat.for="locale of locales">
+      ${locale.title}
+    </option>
+  </select>
+</template>
+
+

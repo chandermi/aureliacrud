@@ -1,0 +1,20 @@
+  <template>
+  <require from="./styles.css"></require>
+  <require from="./localeComponent/locale"></require>
+  <locale></locale> 
+  <nav class="navbar navbar-light bg-light border-bottom fixed-top" role="navigation">
+    <a class="navbar-brand" route-href="route: home">
+      <i class="fa fa-user"></i>
+      <span>Aurelia</span>
+    </a>
+  </nav>
+  <loading-indicator loading.bind="router.isNavigating || api.isRequesting"></loading-indicator>
+
+  <div class="container-md">
+    <div class="row">
+      <router-view class="col-sm-12 col-md-12"></router-view>
+    </div>
+  </div>
+</template>
+  
+
