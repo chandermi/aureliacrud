@@ -14,7 +14,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Hahn.ApplicatonProcess.May2020.Web": {
+    "AureliaCrud.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

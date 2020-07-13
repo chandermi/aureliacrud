@@ -11,7 +11,7 @@
     <UserSecretsId>dda99fab-d00d-4243-a4b7-eb8b8abcab04</UserSecretsId>
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
-    <RootNamespace>Hahn.ApplicatonProcess.May2020.Web</RootNamespace>
+    <RootNamespace>AureliaCrud.Web</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Aurelia DotNet Spa Template</Product>
     <Description>This is a spa template that utilizes the Aurelia CLI and webpack</Description>
@@ -23,10 +23,10 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>Documentation\Hahn.ApplicatonProcess.May2020.Web.Spa.xml</DocumentationFile>
+    <DocumentationFile>Documentation\AureliaCrud.Web.Spa.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Documentation\Hahn.ApplicatonProcess.May2020.Web.Spa.xml" />
+    <None Remove="Documentation\AureliaCrud.Web.Spa.xml" />
   </ItemGroup>
 
   <ItemGroup>

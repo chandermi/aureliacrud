@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Hahn.ApplicatonProcess.May2020.Web
+namespace AureliaCrud.Web
 {
     public class Program
     {

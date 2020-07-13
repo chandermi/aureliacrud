@@ -1,6 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
 
-namespace Hahn.ApplicatonProcess.May2020.Web
+namespace AureliaCrud.Web
 {
     internal class Info : OpenApiInfo
     {

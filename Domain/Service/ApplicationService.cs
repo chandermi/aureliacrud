@@ -12,14 +12,14 @@ namespace AureliaCrud.Service
 {
     public class ApplicationService : IApplicantRepository, ICommon
     {
-        private HahnDbContext _context;
+        private AureliaDbContext _context;
         private Mapper _mapper;
         private Mapper _listmapper;
         private MapperConfiguration configDtoToMain;
         private MapperConfiguration configMainToDto;
         public ApplicationService()
         {
-            _context = new HahnDbContext();
+            _context = new AureliaDbContext();
             configDtoToMain = new MapperConfiguration(cfg => cfg.CreateMap<ApplicantDTO, Applicant>());
             configMainToDto = new MapperConfiguration(cfg => cfg.CreateMap<Applicant, ApplicantDTO>());
             var _listconfig = new MapperConfiguration(cfg => cfg.CreateMap<List<Applicant>, List<ApplicantDTO>>());

@@ -17,7 +17,7 @@ using AureliaCrud.Service;
 using Microsoft.OpenApi.Models;
 using System;
 
-namespace Hahn.ApplicatonProcess.May2020.Web
+namespace AureliaCrud.Web
 {
 
     public class StartApp
