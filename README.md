@@ -32,5 +32,5 @@ set /p id="Press any key to cancel"
 
 # Note 
 It will not work with CICD because we need to setup aurelia cli there
-If we directly publish from visual studio it will create a build which can be run executable on Kestrel Host 
-I have tested it on azure service working fine
+If we directly publish from visual studio it will create a build which is executable on Kestrel Host 
+
